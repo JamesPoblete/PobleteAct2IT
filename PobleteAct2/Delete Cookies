@@ -1,0 +1,9 @@
+<?php
+if (isset($_COOKIE["userList"]) && isset($_COOKIE["userCourse"])) {
+    setcookie("userList", "", time() - 3600); // Set expiration time in the past
+    setcookie("userCourse", "", time() - 3600);
+    echo "Cookies deleted.";
+} else {
+    echo "Cookies not found.";
+}
+?>

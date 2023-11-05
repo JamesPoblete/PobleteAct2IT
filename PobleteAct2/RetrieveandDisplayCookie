@@ -1,0 +1,11 @@
+<?php
+if (isset($_COOKIE["userList"]) && isset($_COOKIE["userCourse"])) {
+    $userList = $_COOKIE["userList"];
+    $userCourse = $_COOKIE["userCourse"];
+    
+    echo "userList: $userList<br>";
+    echo "userCourse: $userCourse<br>";
+} else {
+    echo "Cookies not set.";
+}
+?>

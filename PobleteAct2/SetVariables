@@ -1,0 +1,6 @@
+<?php
+session_start();
+$_SESSION["userId"] = 19842;
+$_SESSION["userName"] = "Student Name";
+$_SESSION["Age"] = "Student Age";
+?>
