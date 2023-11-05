@@ -1,5 +1,0 @@
-<?php
-$expire_time = time() + 3.5 * 3600; // 3.5 hours from now
-setcookie("userList", "Student Name", $expire_time);
-setcookie("userCourse", "IT", $expire_time);
-?>
